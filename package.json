@@ -1,0 +1,11 @@
+{
+  "name":"grape-js",
+  "version":"0.0.1",
+  "description":"A small dependency injection library",
+  "main":"grape.min.js",
+  "devDependencies":{
+    "gulp":">= 3.5.6",
+    "gulp-concat":"*",
+    "gulp-uglify":"*"
+  }
+}
