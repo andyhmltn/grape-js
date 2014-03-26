@@ -27,8 +27,8 @@ Then you can declare a new `Grape` instance. It takes an object as the only argu
 Now you can declare the function you want to be injected:
 
     var my_callback = function($secondary, $main) {
-      $secondary() #=> alert: world
-      $main() #=> alert: hello
+      $secondary() //=> alert: world
+      $main() //=> alert: hello
     }
 
 Then, when you want to run that function you call `Grape.inject` on the dependency instance you created above:
