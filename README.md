@@ -34,3 +34,7 @@ Now you can declare the function you want to be injected:
 Then, when you want to run that function you call `Grape.inject` on the dependency instance you created above:
 
     dependency.inject(my_callback)
+
+Contributing
+-------------
+First, make sure you have installed the node modules using `npm install`. Then, to test run `npm test` or to compile a new version of `Grape` run `gulp scripts`
