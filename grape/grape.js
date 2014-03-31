@@ -21,3 +21,8 @@ Grape.prototype.inject = function(callback) {
 
   return callback.apply(callback, this.getDependencies(args, this.dependencies))
 }
+
+// Node.JS exports
+if(typeof module != 'undefined') {
+  module.exports = Grape
+}
